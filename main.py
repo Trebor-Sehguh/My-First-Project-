@@ -2,8 +2,8 @@
 import os
 import sys
 os.getlogin
-user = "614174"  # Assuming user needs to be defined
-if user == "614174" or user == "Admin":
+user = "Self" or "Admin" # Assuming user needs to be defined
+if user == "Self" or user == "Admin":
     print("Welcome Admin")
     print("Welcome back Player")  # Replace the dashes with your name or whatever you want it to say when you login
 else:
